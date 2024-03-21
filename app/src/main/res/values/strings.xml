@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IPv4V6</string>
+    <string-array name="Problem_Type">
+        <item>Select</item>
+        <item>IPv4V6</item>
+        <item>Process Scheduling</item>
+
+    </string-array>
+    <string name="points"> Solve the five attributes for the given Target IP and CIDR</string>
+    <string name="p2">Click [Check] to check if your answer was correct</string>
+    <string name="p3">Click [Show] to view correct answers</string>
+</resources>

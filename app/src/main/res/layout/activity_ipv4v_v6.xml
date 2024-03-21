@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ipv4vV6">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practice Subnetting IPv4"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:textColor="#115E83"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/points"
+        android:drawableStart="@drawable/bullets"
+        android:textStyle="bold"
+        android:textColor="#115E83"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableStart="@drawable/bullets"
+        android:text="@string/p2"
+        android:textColor="#115E83"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p3"
+        android:drawableStart="@drawable/bullets"
+        android:textStyle="bold"
+        android:textColor="#115E83"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="New Problem">
+
+       </Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:src="@drawable/dotted"
+            android:layout_marginTop="18dp"
+            android:layerType= "software"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target IP Address"
+            android:layout_marginTop="20dp">
+        </TextView>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="1"
+
+            android:columnCount="5">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#E6E6FA"
+                android:elevation="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="">
+
+                </EditText>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="2dp"
+                android:backgroundTint="#E6E6FA"
+                android:elevation="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="">
+
+                </EditText>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="2dp"
+                android:backgroundTint="#E6E6FA"
+                android:elevation="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="">
+
+                </EditText>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#E6E6FA"
+                android:elevation="10dp">
+
+              <View
+                  android:layout_width="2dp"
+                  android:layout_height="60dp"
+                  android:layout_marginLeft="30dp"
+                  android:background="@color/black">
+
+              </View>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="2dp"
+                android:backgroundTint="#E6E6FA"
+                android:elevation="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="">
+
+                </EditText>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
